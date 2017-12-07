@@ -9,27 +9,27 @@ namespace soundpacking
     class Folder
     {
         // this class represents the folders that will contain the Audio Files & Folder path as data memeber "Out Put"
-        private List<AudioFile> Audios;
-        static public int MaxCap; 
+        private static List<AudioFile> Audios = new List<AudioFile>();
+        public static int MaxCap; 
         public int RemainCap;
         Folder()
         {
-            Audios = new List<AudioFile>();
+            //Audios = new List<AudioFile>();
             RemainCap = MaxCap;
 
         }
 
-        public void  AddFile(AudioFile File)
+        public static void  AddFile(AudioFile File)
         {
-            RemainCap -= File.GetDuation();
+            //RemainCap -= File.GetDuation();
             
             Audios.Add(File);
             
 
         }
-        public bool IfAccept(ref AudioFile File)
+        /*public bool IfAccept(ref AudioFile File)
         {
-            return (File.GetDuation() <= RemainCap);
-        }
+            //return (File.GetDuation() <= RemainCap);
+        }*/
     }
 }

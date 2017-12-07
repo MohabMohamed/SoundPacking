@@ -16,3 +16,12 @@ C:\Users\Mohab Abd EL-dayem\Desktop\[ALG'17] Lab8 - [PROJECT] + Priority Queue\P
 C:\Users\Mohab Abd EL-dayem\Desktop\[ALG'17] Lab8 - [PROJECT] + Priority Queue\PROJECT RELEASE\[2] Sounds Packing\ProjectStattup\soundpacking\soundpacking\obj\Debug\soundpacking.Form1.resources
 C:\Users\Mohab Abd EL-dayem\Desktop\[ALG'17] Lab8 - [PROJECT] + Priority Queue\PROJECT RELEASE\[2] Sounds Packing\ProjectStattup\soundpacking\soundpacking\obj\Debug\soundpacking.Properties.Resources.resources
 C:\Users\Mohab Abd EL-dayem\Desktop\[ALG'17] Lab8 - [PROJECT] + Priority Queue\PROJECT RELEASE\[2] Sounds Packing\ProjectStattup\soundpacking\soundpacking\obj\Debug\soundpacking.csproj.GenerateResource.Cache
+E:\College\YEAR 3\Algorithms\Project\Sound Packing\SoundPacking\soundpacking\bin\Debug\soundpacking.exe.config
+E:\College\YEAR 3\Algorithms\Project\Sound Packing\SoundPacking\soundpacking\bin\Debug\soundpacking.exe
+E:\College\YEAR 3\Algorithms\Project\Sound Packing\SoundPacking\soundpacking\bin\Debug\soundpacking.pdb
+E:\College\YEAR 3\Algorithms\Project\Sound Packing\SoundPacking\soundpacking\obj\Debug\soundpacking.csprojResolveAssemblyReference.cache
+E:\College\YEAR 3\Algorithms\Project\Sound Packing\SoundPacking\soundpacking\obj\Debug\soundpacking.Form1.resources
+E:\College\YEAR 3\Algorithms\Project\Sound Packing\SoundPacking\soundpacking\obj\Debug\soundpacking.Properties.Resources.resources
+E:\College\YEAR 3\Algorithms\Project\Sound Packing\SoundPacking\soundpacking\obj\Debug\soundpacking.csproj.GenerateResource.Cache
+E:\College\YEAR 3\Algorithms\Project\Sound Packing\SoundPacking\soundpacking\obj\Debug\soundpacking.exe
+E:\College\YEAR 3\Algorithms\Project\Sound Packing\SoundPacking\soundpacking\obj\Debug\soundpacking.pdb
