@@ -12,11 +12,15 @@ namespace soundpacking
         private static List<AudioFile> Audios = new List<AudioFile>();
         public static int MaxCap; 
         public int RemainCap;
-        Folder()
-        {
+        //Folder()
+        //{
             //Audios = new List<AudioFile>();
-            RemainCap = MaxCap;
+           // RemainCap = MaxCap;
 
+       // }
+        public void setmax(int max)
+        {
+            MaxCap = max;
         }
 
         public static void  AddFile(AudioFile File)

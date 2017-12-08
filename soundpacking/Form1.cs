@@ -47,7 +47,7 @@ namespace soundpacking
         {
             //takes the folder path from TextBox 1 then adds "\AudiosInfo.txt" to its end 
             //then reads line by line into string array frist line is number of files we have 
-            SystemHandler.ReadInPut(textBox1.Text);
+            SystemHandler.ReadInPut(textBox1.Text, int.Parse(textBox2.Text));
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

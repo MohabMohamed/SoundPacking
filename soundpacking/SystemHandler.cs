@@ -8,7 +8,7 @@ namespace soundpacking
 {
     class SystemHandler
     {
-        public static void ReadInPut(string FolderPath) {
+        public static void ReadInPut(string FolderPath, int maxcap) {
 
             string[] Lines = System.IO.File.ReadAllLines(FolderPath + @"\AudiosInfo.txt");
             int NumberOfFiles = Int32.Parse(Lines[0]);
@@ -21,6 +21,9 @@ namespace soundpacking
                 AudioFile.SetDuration(FileInfo[1]);
                 Folder.AddFile(AudioFile);
             }
+
+            Folder output = new Folder();
+            output.setmax(maxcap);
 
 
         }

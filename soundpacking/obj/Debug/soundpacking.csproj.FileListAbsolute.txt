@@ -25,3 +25,6 @@ E:\College\YEAR 3\Algorithms\Project\Sound Packing\SoundPacking\soundpacking\obj
 E:\College\YEAR 3\Algorithms\Project\Sound Packing\SoundPacking\soundpacking\obj\Debug\soundpacking.csproj.GenerateResource.Cache
 E:\College\YEAR 3\Algorithms\Project\Sound Packing\SoundPacking\soundpacking\obj\Debug\soundpacking.exe
 E:\College\YEAR 3\Algorithms\Project\Sound Packing\SoundPacking\soundpacking\obj\Debug\soundpacking.pdb
+D:\year 3\ALGORITHM\ProjectClone\SoundPacking\soundpacking\bin\Debug\soundpacking.exe.config
+D:\year 3\ALGORITHM\ProjectClone\SoundPacking\soundpacking\obj\Debug\soundpacking.exe
+D:\year 3\ALGORITHM\ProjectClone\SoundPacking\soundpacking\obj\Debug\soundpacking.pdb
