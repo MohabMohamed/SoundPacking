@@ -18,7 +18,7 @@ namespace soundpacking
            // RemainCap = MaxCap;
 
        // }
-        public void setmax(int max)
+        public static void setmax(int max)
         {
             MaxCap = max;
         }

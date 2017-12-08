@@ -22,8 +22,7 @@ namespace soundpacking
                 Folder.AddFile(AudioFile);
             }
 
-            Folder output = new Folder();
-            output.setmax(maxcap);
+            Folder.setmax(maxcap);
 
 
         }
