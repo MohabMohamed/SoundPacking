@@ -10,9 +10,9 @@ namespace soundpacking
     class SystemHandler
     {
         private static string folderPath;
-        private static TimeSpan maxcap;
+        private static int maxcap;
 
-        public static void setMaxCap(TimeSpan max)
+        public static void setMaxCap(int max)
         {
             maxcap = max;
         }
@@ -25,7 +25,8 @@ namespace soundpacking
         public static void start()
         {
             List<AudioFile> audiolist = getAudioFiles();
-            Methods.worstFitDecreasingLS(audiolist, (int)maxcap.TotalSeconds);
+            List<Folder> folderlist = Methods.worstFitDecreasingLS(audiolist, maxcap);
+            createFolders(folderlist);
 
         }
 
@@ -48,25 +49,34 @@ namespace soundpacking
             return inputlist;
         }
 
-        public void createFolders(List<Folder> myFolders)
+        public static void createFolders(List<Folder> myFolders)
         {
-            List<string> path = SystemHandler.folderPath.Split('/').ToList<string>();
+            List<string> path = SystemHandler.folderPath.Split('\\').ToList<string>();
             path.RemoveAt(path.Count - 1);
             path.Add("OUTPUT");
             path.Add("WorstFitDecreasingLS");
-            string outputpath = string.Join("/",path);
+            string outputpath = string.Join("\\",path);
             DirectoryInfo di = Directory.CreateDirectory(outputpath);
 
             for (int i = 0; i < myFolders.Count; i++)
             {
                 string foldername = "F" + i;
-                foldername = Path.Combine(outputpath, foldername);
-                DirectoryInfo f = Directory.CreateDirectory(foldername);
+                string newfolderpath = Path.Combine(outputpath, foldername);
+                System.IO.Directory.CreateDirectory(newfolderpath);
 
                 for (int j = 0; j < myFolders[i].files.Count; j++)
                 {
+                    //copy files here
+                    string sourceFileName = SystemHandler.folderPath + "\\Audios\\" 
+                        + myFolders[i].files[j].FileName;
+                    string destinationFileName = newfolderpath + "\\" +
+                        myFolders[i].files[j].FileName;
+                    File.Copy(sourceFileName, destinationFileName);
 
                 }
+
+             }
+
             }
 
         }
@@ -74,4 +84,4 @@ namespace soundpacking
        
 
     }
-}
+

@@ -47,7 +47,7 @@ namespace soundpacking
         {
           
             SystemHandler.setFolderPath(textBox1.Text); 
-            SystemHandler.setMaxCap(TimeSpan.Parse(textBox2.Text)); 
+            SystemHandler.setMaxCap(int.Parse(textBox2.Text)); 
             SystemHandler.start(); //run program
         }
 

@@ -10,7 +10,7 @@ namespace soundpacking
     {
         //Audio File class from which the arrays will be created to hold 2 data members name & Duaration
 
-        private string FileName;
+        public string FileName;
         public TimeSpan Duration;
 
         public void SetFileName(string FileName) {

@@ -10,7 +10,7 @@ namespace soundpacking
     {
         public static List<Folder> worstFitDecreasingLS(List <AudioFile> input, int maxcap)
         {
-            input.Sort((x, y) => x.Duration.CompareTo(y.Duration));
+            input.Sort((x, y) => -1 * x.Duration.CompareTo(y.Duration));
             List<Folder> myFolders = new List<Folder>();
             Folder firstFolder = new Folder(maxcap);
             myFolders.Add(firstFolder);
@@ -45,19 +45,7 @@ namespace soundpacking
             return myFolders;
         }
 
-        public void createFolders(List<Folder> myFolders)
-        {
-
-            for( int i = 0; i < myFolders.Count; i++)
-            {
-
-                for( int j = 0; j < myFolders[i].files.Count; j++)
-                {
-
-                }
-            }
-
-        }
+       
 
 
 
