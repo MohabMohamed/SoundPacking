@@ -45,9 +45,10 @@ namespace soundpacking
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //takes the folder path from TextBox 1 then adds "\AudiosInfo.txt" to its end 
-            //then reads line by line into string array frist line is number of files we have 
-            SystemHandler.ReadInPut(textBox1.Text, int.Parse(textBox2.Text));
+          
+            SystemHandler.setFolderPath(textBox1.Text); 
+            SystemHandler.setMaxCap(TimeSpan.Parse(textBox2.Text)); 
+            SystemHandler.start(); //run program
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

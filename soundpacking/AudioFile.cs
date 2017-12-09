@@ -11,7 +11,7 @@ namespace soundpacking
         //Audio File class from which the arrays will be created to hold 2 data members name & Duaration
 
         private string FileName;
-        private string Duration;
+        public TimeSpan Duration;
 
         public void SetFileName(string FileName) {
             this.FileName = FileName;
@@ -21,11 +21,11 @@ namespace soundpacking
             return this.FileName;
         }
 
-        public void SetDuration(string Duration) {
+        public void SetDuration(TimeSpan Duration) {
             this.Duration = Duration;
         }
 
-        public string GetDuation() {
+        public TimeSpan GetDuation() {
             return this.Duration;
         }
     }

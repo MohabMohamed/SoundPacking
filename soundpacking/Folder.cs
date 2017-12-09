@@ -8,32 +8,18 @@ namespace soundpacking
 {
     class Folder
     {
-        // this class represents the folders that will contain the Audio Files & Folder path as data memeber "Out Put"
-        private static List<AudioFile> Audios = new List<AudioFile>();
-        public static int MaxCap; 
-        public int RemainCap;
-        //Folder()
-        //{
-            //Audios = new List<AudioFile>();
-           // RemainCap = MaxCap;
+        public int remaincap;
+        public List<AudioFile> files;
 
-       // }
-        public static void setmax(int max)
+        public Folder(int remaincap)
         {
-            MaxCap = max;
+            this.remaincap = remaincap;
+            this.files = new List<AudioFile>();
         }
-
-        public static void  AddFile(AudioFile File)
+        public void addFile(AudioFile file)
         {
-            //RemainCap -= File.GetDuation();
-            
-            Audios.Add(File);
-            
-
+            files.Add(file);
+            remaincap = remaincap - (int) file.Duration.TotalSeconds;
         }
-        /*public bool IfAccept(ref AudioFile File)
-        {
-            //return (File.GetDuation() <= RemainCap);
-        }*/
     }
 }
