@@ -42,6 +42,9 @@ namespace soundpacking
         public static void start()
         {
             List<AudioFile> audiolist = getAudioFiles();
+            Folder.SetMaxDur(maxcap);
+            List<AudioFile> Audios = getAudioFiles();
+            Pack.WorstFit(ref Audios);
 
         }
        

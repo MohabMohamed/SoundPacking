@@ -31,3 +31,12 @@ D:\year 3\ALGORITHM\ProjectClone\SoundPacking\soundpacking\obj\Debug\soundpackin
 D:\year 3\ALGORITHM\newtemplate\SoundPacking\soundpacking\bin\Debug\soundpacking.exe.config
 D:\year 3\ALGORITHM\newtemplate\SoundPacking\soundpacking\obj\Debug\soundpacking.exe
 D:\year 3\ALGORITHM\newtemplate\SoundPacking\soundpacking\obj\Debug\soundpacking.pdb
+D:\gitprojects\SoundPacking\soundpacking\bin\Debug\soundpacking.exe.config
+D:\gitprojects\SoundPacking\soundpacking\obj\Debug\soundpacking.exe
+D:\gitprojects\SoundPacking\soundpacking\obj\Debug\soundpacking.pdb
+D:\gitprojects\SoundPacking\soundpacking\bin\Debug\soundpacking.exe
+D:\gitprojects\SoundPacking\soundpacking\bin\Debug\soundpacking.pdb
+D:\gitprojects\SoundPacking\soundpacking\obj\Debug\soundpacking.csprojResolveAssemblyReference.cache
+D:\gitprojects\SoundPacking\soundpacking\obj\Debug\soundpacking.Form1.resources
+D:\gitprojects\SoundPacking\soundpacking\obj\Debug\soundpacking.Properties.Resources.resources
+D:\gitprojects\SoundPacking\soundpacking\obj\Debug\soundpacking.csproj.GenerateResource.Cache
