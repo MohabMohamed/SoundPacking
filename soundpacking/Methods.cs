@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace soundpacking
 {
-    class PaiorityQueue
+    class Methods
     {
-        //paiority queue class with all paiority queue methods
+        void worstFit(List <AudioFile> input, TimeSpan maxcap)
+        {
+
+
+        }
     }
 }
