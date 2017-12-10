@@ -25,8 +25,9 @@ namespace soundpacking
         public static void start()
         {
             List<AudioFile> audiolist = getAudioFiles();
-            List<Folder> folderlist = Methods.worstFitDecreasingLS(audiolist, maxcap);
+            List<Folder> folderlist = Methods.worstFitDecreasingLS(audiolist,maxcap);
             createFolders(folderlist, "WorstFitDecreasingLS");
+
 
         }
 
@@ -55,6 +56,7 @@ namespace soundpacking
             path.RemoveAt(path.Count - 1);
             path.Add("OUTPUT");
             path.Add(filealgo);
+
             string outputpath = string.Join("\\",path);
             DirectoryInfo di = Directory.CreateDirectory(outputpath);
 
